@@ -121,6 +121,9 @@ case ${target} in
     *.yml | *.yaml )
         lang=yaml
         ;;
+    *.sh | *.bash || *.zsh )
+        lang=sh
+        ;;
     * )
         lang=${target##*.}
         ;;
