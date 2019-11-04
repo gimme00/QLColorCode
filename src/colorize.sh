@@ -96,7 +96,7 @@ case ${target} in
             lang=h
         fi
         ;;
-    *.pl )
+    *.pl | *.pm )
         lang=pl
         plugin=(--plug-in perl_ref_perl_org)
         ;;
