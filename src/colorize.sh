@@ -118,6 +118,9 @@ case ${target} in
     *.kmt )
         lang=scala
         ;;
+    *.yml | *.yaml )
+        lang=yaml
+        ;;
     * )
         lang=${target##*.}
         ;;
